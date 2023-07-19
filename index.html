@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>CB Clock</title>
+</head>
+<body>
+    
+    <div class="timer-container">
+        <div class="time-container">
+            <h1 id="timer" class="visible">01:30:00</h1>
+            <div id="message-box" class="hidden">
+                <h1 id="message-reached">Ya has alcanzado el tiempo de la tarea</h1>
+                <h3 id="message-reached-small">Intercambia tu posición con el Cart Runner</h3>
+            </div>
+        </div>
+        
+        <div class="after-timer">
+            <div class="timer-start-btn visible">
+               <h1 class="timer-text">START</h1> 
+            </div>
+            <div class="timer-restart-btn hidden">
+                <h1 class="timer-text">RESTART</h1> 
+            </div>
+        </div>
+        <div class="post-timer-container hidden">
+            <h1 class="description">Time since Alarm:</h1>
+            <h1 id="post-timer">00:00:00</h1>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
