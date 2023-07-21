@@ -11,7 +11,7 @@ let postTimer = ""
 clearInterval(postTimer)
 clearInterval(timer)
 // Set the initial time (1 hour and 30 minutes)
-var initialTimeInSeconds = 1 * 60 * 60 + 30 * 60;
+var initialTimeInSeconds = 1 * 60 * 60;
 //var initialTimeInSeconds = 5;
 var timeInSeconds = initialTimeInSeconds;
 var timeSinceAlarm = 0;
